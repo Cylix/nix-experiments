@@ -8,8 +8,8 @@ $> echo '. /nix/var/nix/profiles/default/etc/profile.d/nix-daemon.sh' >> ~/.zshr
 $> source ~/.zshrc
 
 # run darwin experiment
-$> nix run nix-darwin -- switch --flake .
-# later on: darwin-rebuild switch --flake .
+$> nix run nix-darwin -- switch --flake .#simple
+# later on: darwin-rebuild switch --flake .#simple
 ```
 
 # Resources

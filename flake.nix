@@ -42,7 +42,7 @@
   {
     # Build darwin flake using:
     # $ darwin-rebuild build --flake .#simple
-    darwinConfigurations."Simons-MacBook-Pro-2" = nix-darwin.lib.darwinSystem {
+    darwinConfigurations."simple" = nix-darwin.lib.darwinSystem {
       modules = [ configuration ];
     };
   };
